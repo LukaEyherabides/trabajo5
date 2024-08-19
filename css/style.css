@@ -1,0 +1,241 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: linear-gradient(gray, black, gray);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 30px 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #444;
+    position: relative; 
+}
+
+.search-bar {
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-bar input {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.main-nav ul li {
+    margin: 0 10px; 
+}
+
+.main-nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    background-color: #BCA3E6;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.main-nav ul li a:hover {
+    background-color: #CF9AE6;
+}
+
+.register-form {
+    max-width: 500px;
+    margin: 0 auto 40px auto;
+    padding: 30px;
+    background-color: #E69D97;
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
+    padding-top: 1px;
+}
+
+.register-form h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+
+.register-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.register-form input,
+.register-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1.1em;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #BCA3E6;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #CF9AE6;
+}
+
+footer {
+    padding: 40px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.presentacion {
+    background-color: #898386;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foto1 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+    float: left;
+}
+
+.presentacion p {
+    margin-top: 0;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.contactos ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.contactos ul li {
+    margin: 10px 20px;
+    font-size: 1.1em;
+}
+main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Estilos para samsung s8+ */
+@media screen and (max-width: 360px) {
+    h1 {
+        font-size: 1.5em; 
+    }
+
+    .search-bar input {
+        width: 100%;
+        padding: 8px;
+        font-size: 0.9em;
+    }
+
+    .register-form {
+        width: 100%; 
+        padding: 10px; 
+    }
+
+    .register-form label {
+        display: block;
+        font-size: 0.9em; 
+        margin-bottom: 5px; 
+    }
+
+    .register-form input,
+    .register-form select {
+        width: calc(100% - 20px); 
+        padding: 8px; 
+        font-size: 0.9em; 
+        margin-bottom: 10px; 
+        text-align: left;
+    }
+
+    .submit-btn {
+        font-size: 0.9em; 
+        padding: 10px; 
+    }
+  
+    header {
+        padding: 10px;
+    }
+
+    .main-nav ul {
+        flex-direction: column; 
+        align-items: center; 
+        padding: 0; 
+        margin: 0; 
+    }
+
+    .main-nav ul li {
+        margin: 10px 0; 
+    }
+
+    .main-nav ul li a {
+        padding: 10px 15px; 
+        font-size: 0.9em; 
+    }
+ }
+
+    .presentacion {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .foto1 {
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
+        margin-top: 16px;
+    }
+
+    .presentacion p {
+        font-size: 1em;
+    }
+
+    .contactos ul {
+        flex-direction: column;
+    }
+
+    .contactos ul li {
+        margin: 5px 0;
+    }
+
